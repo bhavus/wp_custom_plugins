@@ -1,0 +1,105 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the sort form */
+#sortForm {
+    margin-bottom: 20px;
+}
+
+/* Style the dropdown */
+#sortForm select {
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+/* Style the product table */
+/*.product-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}*/
+.product-list {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: 50px;
+ }   
+
+/* Style the table headers */
+.product-list th {
+    background-color: #f4f4f4;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style the table rows */
+.product-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style the table row links */
+.product-list td a {
+    color: #0073aa;
+    text-decoration: none;
+    padding-left: 10px;
+
+}
+
+.product-list td a:hover {
+    text-decoration: underline;
+}
+
+/* Style pagination */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #0073aa;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+}
+
+.pagination a:hover {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.pagination .current {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #0073aa;
+    color: #fff;
+    margin: 0 5px;
+}
+.product-list tr.sp-center th {
+   text-align: left;
+   padding-left: 10px; 
+    
+}
+
+
+/*search form html*/
+
+.spp-search {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul#search-results {
+    margin-top: 10px;
+    margin-left: 18px;
+    text-decoration: none;
+    list-style: none;
+}

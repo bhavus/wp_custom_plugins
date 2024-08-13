@@ -1,0 +1,17 @@
+->table sorting date, title, price
+
+->wp default table
+
+->filter 
+
+->popup
+
+->product-slider( metabox, acf, custom fields, custom post type, plugin settings)
+
+->plugin settings
+
+->plugin 
+
+
+
+-> forntend side insert data to product post type
